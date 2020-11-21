@@ -41,7 +41,9 @@ $(document).ready(function(){
     })),
     $(".window .close").on("click", (function() {
         $(this).parent().parent().hide();
-    }))
+    })),
+
+    $(".window").drags({handle:"header"})
     
     ;
   });
