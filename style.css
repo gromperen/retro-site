@@ -555,7 +555,7 @@ body {
 	background-color: rgb(245, 255, 160);
 	border: 1px solid #000;
 	border-radius: .400rem;
-	/* display: none; */
+	display: none; 
 	left: 20px;
 	overflow: hidden;
 	opacity: 1!important;
